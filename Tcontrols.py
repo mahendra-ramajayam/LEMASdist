@@ -1,7 +1,9 @@
-# Lab temperature controls
-#If these ever need changed, the format is: Tcontrols['<labID>'] = [<minimum temperature>, <maximum temperature>]
-#Add new temperature controls below the last line
-#Units are degrees Celsius
+"""
+Lab temperature controls
+If these ever need changed, the format is: Tcontrols['<labID>'] = [<minimum temperature>, <maximum temperature>]
+Add new temperature controls below the last line
+Units are degrees Celsius
+"""
 Tcontrols = {}                                                                  #initialize empty dictionary
 Tcontrols['219/A022'] = [19.5, 20.5]
 Tcontrols['219/F030'] = [19.0, 21.0]

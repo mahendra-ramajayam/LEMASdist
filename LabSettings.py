@@ -1,3 +1,7 @@
+"""
+Various device-specific settings
+"""
+
 #where recorded data will be stored in Linux file system, create if doesn't exist, doesn't really ever need changed
 #the purpose of getpass.getuser() is to get the current username
 import getpass                                                                  #for getting the current username to create save directory string
